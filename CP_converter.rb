@@ -1,4 +1,3 @@
-# Your code here!
 #キーの配列
 key_number = [
   "Cb",
@@ -72,17 +71,10 @@ scale = [
 input = readlines
 len = input.length
 i = 0
-
 while i < len
     input[i] = input[i].chomp.split(',')
     i += 1
 end
-
-
-# puts input
-
-#ループ変数
-l = 0
 
 #keyをループにかけて、各キーに合うスケールを抽出し、コード進行をディグリーネームに変える
 input.each do |i|
